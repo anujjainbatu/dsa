@@ -1,0 +1,15 @@
+# https://www.geeksforgeeks.org/problems/bubble-sort/1
+
+class Solution:
+    #Function to sort the array using bubble sort algorithm.
+    def bubbleSort(self,arr):
+        is_swap = False
+        n = len(arr)
+        for i in range(n-2, -1, -1):
+            for j in range(i+1):
+                if arr[j] > arr[j+1]:
+                    arr[j], arr[j+1] = arr[j+1], arr[j]
+                    is_swap = True
+            if is_swap == False:
+                return arr
+        return arr

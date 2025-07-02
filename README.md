@@ -8,38 +8,91 @@ This repository is for my personal practice of DSA and serves as a log and notes
 
 ## Structure
 
-The repository is organized into directories by topic, for example:
-- `arrays/` – Array problems, further divided by difficulty (e.g., `easy/`, `medium/`, `hard/`)
-- `sorting/` – Sorting algorithm implementations (e.g., merge sort, quick sort, insertion sort, selection sort)
-- `hashing/` – Hashing-related problems
-- `recursion/` – Recursive problem solutions
+The repository is organized into directories by topic:
+
+- **`arrays/`** – Array problems, divided by difficulty:
+  - `easy/` – Basic array operations and simple algorithms
+  - `medium/` – Intermediate problems like matrix operations and optimization
+  - `hard/` – Complex problems like 3Sum and 4Sum
+- **`sorting/`** – Sorting algorithm implementations
+- **`binary-search/`** – Binary search variations and applications
+- **`hashing/`** – Hash table and frequency-based problems
+- **`recursion/`** – Recursive problem solutions
+- **`basic-maths/`** – Mathematical algorithms and number theory
 
 Each Python file typically contains a class `Solution` with methods solving the respective problem, references to the original problem statement, and comments on time and space complexity.
 
-## Example Problems
+## Implemented Problems
 
-- **Sorting Algorithms:**  
-  - Merge Sort  
-  - Insertion Sort  
-  - Selection Sort  
-  - Quick Sort (Lomuto and Hoare partition schemes)
+### Sorting Algorithms
+- [Bubble Sort](sorting/bubble-sort) – Basic comparison-based sorting
+- [Selection Sort](sorting/selection-sort.py) – Find minimum and swap approach
+- [Insertion Sort](sorting/insertion-sort.py) – Build sorted array incrementally
+- [Merge Sort](sorting/merge-sort.py) – Divide and conquer approach (in-place and new array versions)
+- [Quick Sort (Lomuto)](sorting/quick-sort-lomuto-scheme—pivot-at-end.py) – Partition with pivot at end
+- [Quick Sort (Hoare)](sorting/quick-sort-hoare-partition-scheme—pivot-at-start.py) – Efficient partition scheme
 
-- **Array Problems:**  
-  - Check if an array is sorted  
-  - Find the largest element in an array  
-  - Rotate an array  
-  - 3Sum problem  
-  - Spiral matrix traversal  
-  - Search for an element in an array  
-  - Union of two sorted arrays  
-  - Rotate a matrix (image)
+### Array Problems
 
-- **Hashing Problems:**  
-  - Frequency of array elements  
-  - Find the frequency of a specific element
+#### Easy
+- [Check if Array is Sorted](arrays/easy/check-if-an-array-is-sorted.py)
+- [Largest Element in Array](arrays/easy/largest-element-in-array.py)
+- [Second Order Elements](arrays/easy/second-order-elements.py)
+- [Remove Duplicates from Sorted Array](arrays/easy/remove-duplicates-from-sorted-array.py)
+- [Rotate Array](arrays/easy/rotate-array.py)
+- [Move Zeroes](arrays/easy/move-zeroes.py)
+- [Max Consecutive Ones](arrays/easy/max-consecutive-ones.py)
+- [Missing Number](arrays/easy/missing-number.py)
+- [Search Element in Array](arrays/easy/search-an-element-in-an-array.py)
+- [Union of Two Sorted Arrays](arrays/easy/union-of-two-sorted-arrays.py)
 
-- **Recursion:**  
-  - Reverse sub-array using recursion
+#### Medium
+- [Two Sum](arrays/medium/two-sum.py)
+- [Best Time to Buy and Sell Stock](arrays/medium/best-time-to-buy-and-sell-stock.py)
+- [Rearrange Array Elements by Sign](arrays/medium/rearrange-array-elements-by-sign.py)
+- [Maximum Subarray (Kadane's Algorithm)](arrays/medium/maximum-subarray-kadane-algorithm.py)
+- [Longest Consecutive Sequence](arrays/medium/longest-consecutive-sequence.py)
+- [Spiral Matrix](arrays/medium/spiral-matrix.py)
+- [Rotate Image (Matrix)](arrays/medium/rotate-image.py)
+- [Set Matrix Zeroes](arrays/medium/set-matrix-zeroes.py)
+- [Find K-Distant Indices](arrays/medium/find-all-k-distant-indices-in-an-array.py)
+
+#### Hard
+- [3Sum](arrays/hard/3sum.py) – Multiple approaches with complexity analysis
+- [4Sum](arrays/hard/4sum.py) – Two-pointer and hashing solutions
+
+### Binary Search
+- [Binary Search (Iterative)](binary-search/binary-search-iterative.py)
+- [Binary Search (Recursive)](binary-search/binary-search-recursive.py)
+- [Search Insert Position](binary-search/search-insert-position.py)
+- [Find First and Last Position](binary-search/find-first-and-last-position-of-element-in-sorted-array.py)
+- [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array.py)
+- [Search in Rotated Sorted Array II](binary-search/search-in-rotated-sorted-array-ii.py)
+- [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array.py)
+- [Number of Occurrences](binary-search/number-of-occurrence.py)
+- [Floor in Sorted Array](binary-search/floor-in-a-sorted-array.py)
+- [Ceiling and Floor](binary-search/ceiling-floor-in-a-sorted-array.py)
+- [Upper Bound Implementation](binary-search/implement-upper-bound.py)
+
+### Hashing Problems
+- [Frequency of Array Elements](hashing/frequency-of-array-elements.py)
+- [Find Frequency of Element](hashing/find-the-frequency.py)
+
+### Recursion
+- [Print 1 to N without Loops](recursion/print-1-to-n-without-using-loops.py)
+- [Print N to 1 without Loop](recursion/print-n-to-1-without-loop.py)
+- [Print GFG N Times](recursion/print-gfg-n-times.py)
+- [Fibonacci Number](recursion/fibonacci-number.py)
+- [Factorial Numbers ≤ N](recursion/find-all-factorial-numbers-less-than-or-equal-to-n.py)
+- [Sum of Cube of First N Terms](recursion/sum-of-cube-of-first-n-terms)
+- [Palindrome String (Recursive)](recursion/palindrome-string.py)
+- [Reverse Sub-array](recursion/reverse-sub-array.py)
+
+### Basic Mathematics
+- [Count Digits](basic-maths/number-of-digits.py)
+- [Palindrome Number](basic-maths/palindrome-number.py)
+- [Reverse Integer](basic-maths/reverse-integer.py)
+- [LCM and GCD](basic-maths/lcm-and-gcd.py)
 
 ## How to Use
 
@@ -50,11 +103,19 @@ Each Python file typically contains a class `Solution` with methods solving the 
 2. Navigate to the desired directory and open the Python file for the problem you're interested in.
 3. Each file contains a `Solution` class you can import and use, or run directly for experimentation and learning.
 
+## Features
+
+- **Comprehensive Coverage**: Problems spanning from basic to advanced difficulty levels
+- **Multiple Approaches**: Many problems include different solution methods with complexity analysis
+- **Well-Documented**: Each solution includes problem links, time/space complexity, and explanatory comments
+- **Organized Structure**: Clear categorization by topic and difficulty for easy navigation
+
 ## Purpose
 
-- Practice DSA coding problems.
-- Log and track my progress and approaches.
-- Maintain notes and explanations for future reference.
+- Practice DSA coding problems systematically
+- Log and track my progress and different approaches
+- Maintain notes and explanations for future reference
+- Build a comprehensive problem-solving toolkit
 
 ## Contributing
 

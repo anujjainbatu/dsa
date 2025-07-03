@@ -94,6 +94,64 @@ Each Python file typically contains a class `Solution` with methods solving the 
 - [Reverse Integer](basic-maths/reverse-integer.py)
 - [LCM and GCD](basic-maths/lcm-and-gcd.py)
 
+## Pattern Wise Questions
+
+<details>
+<summary><strong>Click to expand pattern-wise problem categorization</strong></summary>
+
+### 1. Two Pointers
+- **Easy**: [Remove Duplicates from Sorted Array](arrays/easy/remove-duplicates-from-sorted-array.py), [Move Zeroes](arrays/easy/move-zeroes.py)
+- **Medium**: [Rearrange Array Elements by Sign](arrays/medium/rearrange-array-elements-by-sign.py)
+- **Hard**: [3Sum](arrays/hard/3sum.py), [4Sum](arrays/hard/4sum.py)
+- **Utility**: [Union of Two Sorted Arrays](arrays/easy/union-of-two-sorted-arrays.py)
+
+### 2. Binary Search
+- **Basic**: [Binary Search (Iterative)](binary-search/binary-search-iterative.py), [Binary Search (Recursive)](binary-search/binary-search-recursive.py)
+- **Bounds**: [Search Insert Position](binary-search/search-insert-position.py), [Upper Bound Implementation](binary-search/implement-upper-bound.py), [Floor in Sorted Array](binary-search/floor-in-a-sorted-array.py), [Ceiling and Floor](binary-search/ceiling-floor-in-a-sorted-array.py)
+- **Range Queries**: [Find First and Last Position](binary-search/find-first-and-last-position-of-element-in-sorted-array.py), [Number of Occurrences](binary-search/number-of-occurrence.py)
+- **Rotated Arrays**: [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array.py), [Search in Rotated Sorted Array II](binary-search/search-in-rotated-sorted-array-ii.py), [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array.py)
+
+### 3. Hashing/Hash Maps
+- **Frequency Counting**: [Valid Anagram](strings/valid-anagram.py), [Frequency of Array Elements](hashing/frequency-of-array-elements.py), [Find Frequency of Element](hashing/find-the-frequency.py)
+- **Complement Lookup**: [Two Sum](arrays/medium/two-sum.py), [3Sum](arrays/hard/3sum.py) (hashing approach), [4Sum](arrays/hard/4sum.py) (hashing approach)
+- **Sequence Problems**: [Longest Consecutive Sequence](arrays/medium/longest-consecutive-sequence.py), [Missing Number](arrays/easy/missing-number.py)
+
+### 4. Greedy Algorithms
+- **Optimization**: [Best Time to Buy and Sell Stock](arrays/medium/best-time-to-buy-and-sell-stock.py), [Maximum Subarray (Kadane's Algorithm)](arrays/medium/maximum-subarray-kadane-algorithm.py)
+- **Counting**: [Max Consecutive Ones](arrays/easy/max-consecutive-ones.py)
+
+### 5. Matrix Manipulation
+- **Traversal**: [Spiral Matrix](arrays/medium/spiral-matrix.py)
+- **Transformation**: [Rotate Image](arrays/medium/rotate-image.py), [Set Matrix Zeroes](arrays/medium/set-matrix-zeroes.py)
+
+### 6. Divide and Conquer
+- **Sorting**: [Merge Sort](sorting/merge-sort.py), [Quick Sort (Lomuto)](sorting/quick-sort-lomuto-scheme—pivot-at-end.py), [Quick Sort (Hoare)](sorting/quick-sort-hoare-partition-scheme—pivot-at-start.py)
+
+### 7. Basic Recursion
+- **Mathematical**: [Fibonacci Number](recursion/fibonacci-number.py), [Factorial Numbers ≤ N](recursion/find-all-factorial-numbers-less-than-or-equal-to-n.py), [Sum of Cube of First N Terms](recursion/sum-of-cube-of-first-n-terms)
+- **String/Array**: [Palindrome String (Recursive)](recursion/palindrome-string.py), [Reverse Sub-array](recursion/reverse-sub-array.py)
+- **Print Patterns**: [Print 1 to N without Loops](recursion/print-1-to-n-without-using-loops.py), [Print N to 1 without Loop](recursion/print-n-to-1-without-loop.py), [Print GFG N Times](recursion/print-gfg-n-times.py)
+
+### 8. Mathematical Patterns
+- **Number Theory**: [LCM and GCD](basic-maths/lcm-and-gcd.py), [Count Digits](basic-maths/number-of-digits.py)
+- **Digit Manipulation**: [Palindrome Number](basic-maths/palindrome-number.py), [Reverse Integer](basic-maths/reverse-integer.py)
+
+### 9. Array Rearrangement
+- **In-place Operations**: [Rotate Array](arrays/easy/rotate-array.py), [Rearrange Array Elements by Sign](arrays/medium/rearrange-array-elements-by-sign.py)
+
+### 10. Sorting Algorithms
+- **Comparison-based**: [Bubble Sort](sorting/bubble-sort), [Selection Sort](sorting/selection-sort.py), [Insertion Sort](sorting/insertion-sort.py)
+- **Advanced**: [Merge Sort](sorting/merge-sort.py), [Quick Sort variants](sorting/)
+
+### 11. Linear Scan Patterns
+- **Single Pass**: [Largest Element in Array](arrays/easy/largest-element-in-array.py), [Second Order Elements](arrays/easy/second-order-elements.py), [Check if Array is Sorted](arrays/easy/check-if-an-array-is-sorted.py)
+- **Search**: [Search Element in Array](arrays/easy/search-an-element-in-an-array.py)
+
+### 12. Range-based Problems
+- **Distance Calculations**: [Find K-Distant Indices](arrays/medium/find-all-k-distant-indices-in-an-array.py)
+
+</details>
+
 ## How to Use
 
 1. Clone the repository:

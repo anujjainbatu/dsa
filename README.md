@@ -17,6 +17,8 @@ The repository is organized into directories by topic:
 - **`sorting/`** – Sorting algorithm implementations
 - **`binary-search/`** – Binary search variations and applications
 - **`hashing/`** – Hash table and frequency-based problems
+- **`linked-list/`** – Linked list operations and algorithms
+- **`strings/`** – String manipulation and pattern problems
 - **`recursion/`** – Recursive problem solutions
 - **`basic-maths/`** – Mathematical algorithms and number theory
 
@@ -77,6 +79,8 @@ Each Python file typically contains a class `Solution` with methods solving the 
 ### Hashing Problems
 - [Frequency of Array Elements](hashing/frequency-of-array-elements.py)
 - [Find Frequency of Element](hashing/find-the-frequency.py)
+- [Find Lucky Integer in Array](hashing/find-lucky-integer-in-an-array.py) – Find integer equal to its frequency
+- [Finding Pairs with Certain Sum](arrays/hard/finding-pairs-with-a-certain-sum.py) – Dynamic pair counting with updates
 
 ### Recursion
 - [Print 1 to N without Loops](recursion/print-1-to-n-without-using-loops.py)
@@ -93,6 +97,28 @@ Each Python file typically contains a class `Solution` with methods solving the 
 - [Palindrome Number](basic-maths/palindrome-number.py)
 - [Reverse Integer](basic-maths/reverse-integer.py)
 - [LCM and GCD](basic-maths/lcm-and-gcd.py)
+
+### String Problems
+- [Valid Anagram](strings/valid-anagram.py) – Check if two strings are anagrams using frequency counting
+- [Group Anagrams](strings/group-anagrams.py) – Group strings that are anagrams of each other
+- [Find the K-th Character in String Game I](strings/find-the-k-th-character-in-string-game-i.py) – String transformation game problem
+
+### Linked List Problems
+- [Introduction to Linked List](linked-list/introduction-to-linked-list.py) – Basic linked list construction
+- [Design Linked List](linked-list/design-linked-list.py) – Complete linked list implementation with all operations
+- [Count Nodes of Linked List](linked-list/count-nodes-of-linked-list.py) – Count total nodes in a linked list
+- [Search in Linked List](linked-list/search-in-linked-list.py) – Search for an element in linked list
+- [Linked List Insertion](linked-list/linked-list-insertion.py) – Insert at end of linked list
+- [Reverse Linked List](linked-list/reverse-linked-list.py) – Reverse a singly linked list
+- [Delete Node without Head](linked-list/delete-node-in-a-linked-list-no-head-special-case.py) – Special case deletion
+- [Odd Even Linked List](linked-list/odd-even-linked-list.py) – Rearrange nodes by position parity
+
+#### Tortoise-Hare Algorithm Problems
+- [Linked List Cycle](linked-list/tortoise-hare-linked-list-cycle.py) – Detect cycle using Floyd's algorithm
+- [Linked List Cycle II](linked-list/tortoise-hare-linked-list-cycle-ii.py) – Find cycle start node
+- [Find Length of Loop](linked-list/tortoise-hare-find-length-of-loop.py) – Count nodes in cycle
+- [Middle of Linked List](linked-list/tortoise-hare-middle-of-the-linked-list.py) – Find middle node efficiently
+- [Remove Nth Node from End](linked-list/tortoise-hare-remove-nth-node-from-end-of-list.py) – Remove node from end
 
 ## Pattern Wise Questions
 
@@ -149,6 +175,19 @@ Each Python file typically contains a class `Solution` with methods solving the 
 
 ### 12. Range-based Problems
 - **Distance Calculations**: [Find K-Distant Indices](arrays/medium/find-all-k-distant-indices-in-an-array.py)
+
+### 13. Linked List Patterns
+- **Basic Operations**: [Introduction to Linked List](linked-list/introduction-to-linked-list.py), [Linked List Insertion](linked-list/linked-list-insertion.py), [Count Nodes](linked-list/count-nodes-of-linked-list.py)
+- **Search & Manipulation**: [Search in Linked List](linked-list/search-in-linked-list.py), [Reverse Linked List](linked-list/reverse-linked-list.py), [Odd Even Linked List](linked-list/odd-even-linked-list.py)
+- **Tortoise-Hare**: [Linked List Cycle](linked-list/tortoise-hare-linked-list-cycle.py), [Find Middle](linked-list/tortoise-hare-middle-of-the-linked-list.py), [Remove Nth from End](linked-list/tortoise-hare-remove-nth-node-from-end-of-list.py)
+- **Advanced**: [Design Linked List](linked-list/design-linked-list.py), [Delete Node Special Case](linked-list/delete-node-in-a-linked-list-no-head-special-case.py)
+
+### 14. String Processing
+- **Anagram Problems**: [Valid Anagram](strings/valid-anagram.py), [Group Anagrams](strings/group-anagrams.py)
+- **Character Manipulation**: [Find K-th Character in String Game](strings/find-the-k-th-character-in-string-game-i.py)
+
+### 15. Dynamic Data Structures
+- **Real-time Updates**: [Finding Pairs with Certain Sum](arrays/hard/finding-pairs-with-a-certain-sum.py)
 
 </details>
 

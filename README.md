@@ -216,7 +216,7 @@ Each Python file typically contains a class `Solution` with methods solving the 
 
 ## Contributing
 
-This repository is primarily for my own learning, but feel free to fork the repo and submit pull requests for new problems, improved solutions, or optimizations.
+This repository is primarily for my own learning, but feel free to fork the repo and submit pull requests for new problems, improved solutions, or optimizations. 
 
 ---
 

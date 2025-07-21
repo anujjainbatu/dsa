@@ -1,6 +1,6 @@
 # dsa
 
-A collection of Python solutions and notes for common Data Structures and Algorithms (DSA) problems.
+A collection of Python solutions and notes for common Data Structures and Algorithms problems.
 
 ## Overview
 
